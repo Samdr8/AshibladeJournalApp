@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Sophisticated target circle -->
+    <path
+        android:pathData="M54,54 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"
+        android:strokeWidth="2"
+        android:strokeColor="#1E00E5FF" />
+
+    <path
+        android:pathData="M54,54 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"
+        android:strokeWidth="0.8"
+        android:strokeColor="#44FFFFFF" />
+
+    <!-- Neon grid candlesticks (M3 Design weights) -->
+    <!-- Candlestick 1 shadow + body (green index) -->
+    <path
+        android:pathData="M24,70 L24,90"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00E676" />
+    <path
+        android:pathData="M20,74 h8 v10 h-8 z"
+        android:fillColor="#00E676" />
+
+    <!-- Candlestick 2 shadow + body (red index) -->
+    <path
+        android:pathData="M48,42 L48,64"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FF3366" />
+    <path
+        android:pathData="M44,47 h8 v11 h-8 z"
+        android:fillColor="#FF3366" />
+
+    <!-- Candlestick 3 shadow + body (green index) -->
+    <path
+        android:pathData="M72,55 L72,75"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00E676" />
+    <path
+        android:pathData="M68,59 h8 v10 h-8 z"
+        android:fillColor="#00E676" />
+
+    <!-- Sleek Neon Blue Trend Arrow / Blade representing Ashiblade -->
+    <path
+        android:pathData="M24,84 L50,58"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4.5"
+        android:strokeColor="#00E5FF" />
+    <path
+        android:pathData="M50,58 L72,66 L92,30"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4.5"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Arrow Blade Point -->
+    <path
+        android:pathData="M92,30 L78,32 M92,30 L90,44"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4.5"
+        android:strokeColor="#00E5FF" />
+</vector>
